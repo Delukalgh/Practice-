@@ -8,7 +8,7 @@ export default function FetchButton({ onClick, loading }) {
 
       <button
         disabled={loading}
-        className={styles.fetchButton}
+        className={styles.dataBtn}
         onClick={onClick}
         >
         {loading ? "Collecting Data" : "Collect Cats"}

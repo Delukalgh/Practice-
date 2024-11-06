@@ -36,10 +36,10 @@ export default function Home() {
           {pictureContents.map((picture, i) => (
             <article key={i} className={styles.pictureCard}>
               <img src={picture.url} alt={`Cat picture ${i + 1}`} />
-              <p className={styles.pictureInfo}>Width: {picture.width} px</p>
-              <p className={styles.pictureInfo}>Height: {picture.height} px</p>
-              <p className={styles.pictureInfo}>Breed: Unknown</p>
-              <p className={styles.pictureInfo}>Image URL: <a href={picture.url} target="_blank" rel="noopener noreferrer">{picture.url}</a></p>
+              <p className={styles.info}>Width: {picture.width} px</p>
+              <p className={styles.info}>Height: {picture.height} px</p>
+              <p className={styles.info}>Breed: Unknown</p>
+              <p className={styles.info}>Image URL: <a href={picture.url} target="_blank" rel="noopener noreferrer">{picture.url}</a></p>
             </article>
           ))}
         </section>
@@ -48,7 +48,7 @@ export default function Home() {
 
     return (
       <section className={styles.loading}>
-        What are you waiting for? Spawn in kitties!
+        No content yet? Bring some cats in!
       </section>
     );
   };

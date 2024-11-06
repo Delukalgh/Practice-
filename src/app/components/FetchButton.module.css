@@ -1,13 +1,19 @@
 .centerContainer {
     display: flex;
-    justify-content: center;
+    margin: 20rem;
+
 }
 
-.fetchButton {
+.dataBtn {
     display: flex;
-    justify-content: center;
-    background-color: white;
+    background-color: black;
     padding: 2px;
     border-radius: 10px;
-    width: 10%;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
