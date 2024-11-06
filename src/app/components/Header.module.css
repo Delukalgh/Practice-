@@ -16,3 +16,21 @@
     font-size: 7em;
     font-weight: bolder;
 }
+
+/* Media query for iPhone 14 Pro Max */
+@media (max-width: 430px) {
+    .headerContainer {
+      margin-bottom: 20px; /* Reduce bottom margin for smaller screens */
+      gap: 2em; /* Decrease gap for better use of space */
+    }
+  
+    .colContainer {
+      flex-direction: column; /* Stack items vertically for mobile */
+      align-items: center; /* Center items within the container */
+    }
+  
+    .headerContainer > h1 {
+      font-size: 3em; /* Reduce font size for readability on smaller screens */
+      margin-bottom: 1rem;
+    }
+  }
