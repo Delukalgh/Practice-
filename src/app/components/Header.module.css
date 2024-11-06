@@ -1,0 +1,11 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.headerContainer>h1{
+    text-align: center;
+    color: white;
+    font-size: larger;
+}

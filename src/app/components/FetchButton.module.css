@@ -1,0 +1,13 @@
+.centerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.fetchButton {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    width: 10%;
+}
